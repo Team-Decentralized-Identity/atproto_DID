@@ -12,7 +12,7 @@ env:
 
 jobs:
   bsync-container-aws:
-    if: github.repository == 'bluesky-social/atproto'
+    if: github.repository == 'Team-Decentralized-Identity/atproto_DID'
     runs-on: ubuntu-latest
     permissions:
       contents: read
