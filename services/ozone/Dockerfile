@@ -51,7 +51,9 @@ ENV NODE_ENV=production
 # https://github.com/nodejs/docker-node/blob/master/docs/BestPractices.md#non-root-user
 USER node
 CMD ["node", "--enable-source-maps", "api.js"]
+# https://github.com/Team-Decentralized-Identity/atproto_DID/blob/main/services/ozone/Dockerfile
+# LABEL org.opencontainers.image.source=https://github.com/bluesky-social/atproto
 
-LABEL org.opencontainers.image.source=https://github.com/bluesky-social/atproto
+LABEL org.opencontainers.image.source=https://github.com/Team-Decentralized-Identity/atproto_DID
 LABEL org.opencontainers.image.description="Ozone"
 LABEL org.opencontainers.image.licenses=MIT
