@@ -1,6 +1,6 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@2.3.1/schema.json",
-  "changelog": ["@changesets/changelog-github", { "repo": "bluesky-social/atproto" }],
+  "changelog": ["@changesets/changelog-github", { "repo": "Team-Decentralized-Identity/atproto_DID" }],
   "commit": false,
   "fixed": [],
   "linked": [],
@@ -9,3 +9,8 @@
   "updateInternalDependencies": "patch",
   "ignore": []
 }
+
+# bluesky-social/atproto
+
+
+
